@@ -2,6 +2,17 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+html {
+  padding-top: 50px;
+}
+
+.banner, .container {
+  max-width: 100%;
+  width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .banner {
   margin-top: -20px;
 }
@@ -22,8 +33,6 @@
 
 .splash {
   background-image: url("{{ '/img/candle.gif' | prepend: site.baseurl }}");
-  max-width: 100%;
-  width: 45em;
   height: 12em;
   background-size: cover;
   background-repeat: no-repeat;
