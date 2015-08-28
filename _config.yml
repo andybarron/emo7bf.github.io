@@ -1,0 +1,15 @@
+# Site settings
+title: Elizabeth Orrico
+email: eorrico@usc.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Personal Web site of Elizabeth Orrico.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://emo7bf.github.io" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+# Pretty urls
+permalink: pretty
