@@ -8,8 +8,18 @@ body {
   background-attachment: fixed;
 }
 
+nav li.active {
+  background-color: white;
+}
+
 h1 {
   margin-top: 0;
+}
+
+.portrait {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 50vh;
 }
 
 .banner, .container, .wrapper {
@@ -20,14 +30,12 @@ h1 {
 }
 
 .wrapper {
-  padding-left: 2em;
-  padding-right: 2em;
   background-color: white;
   padding-bottom: 0.5em;
   padding-top: 1.5em;
 }
 
-p {
+main {
   text-align: justify;
 }
 
@@ -46,6 +54,7 @@ p {
 }
 
 .splash {
+  border: 2px solid darkgray;
   background-image: url("{{ '/img/candle.gif' | prepend: site.baseurl }}");
   height: 18em;
   background-size: cover;
@@ -69,6 +78,11 @@ p {
 
 .stamp {
   max-width: 100px;
+  height: auto;
+}
+
+p {
+  line-height: 1.5;
 }
 
 // @charset "utf-8";

@@ -1,6 +1,8 @@
 # Site settings
 title: Elizabeth Orrico
 email: eorrico@usc.edu
+phone: 4344093382
+phone_pretty: (434) 409-3382
 description: > # this means to ignore newlines until "baseurl:"
   Personal Web site of Elizabeth Orrico.
 baseurl: "" # the subpath of your site, e.g. /blog/
