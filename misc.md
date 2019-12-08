@@ -23,5 +23,4 @@ icon_path: img/icons/no border
 </div>
 <ul class="text-center list-unstyled">
   <li><a href="/blog/">Blog</a></li>
--->
-</ul>
+</ul> -->
